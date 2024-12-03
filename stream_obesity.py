@@ -1,10 +1,10 @@
+from fpdf import FPDF
 import streamlit as st
 import pandas as pd
 import pickle
 import textwrap
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
-from fpdf import FPDF
 
 # CSS untuk mempercantik tampilan
 st.markdown("""
